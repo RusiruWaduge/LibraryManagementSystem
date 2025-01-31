@@ -1,6 +1,6 @@
 
 package com.LibraryManagementSystem;
-
+import java.io.Serializable;
 public class Book extends com.LibraryManagementSystem.LibraryItem {
     public Book(String title, String author, String serialNumber) {
         super(title, author, serialNumber);

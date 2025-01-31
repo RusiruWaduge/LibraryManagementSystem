@@ -1,6 +1,6 @@
 package com.LibraryManagementSystem;
-
-public abstract class LibraryItem {
+import java.io.Serializable;
+public abstract class LibraryItem implements serializable {
     private String title;
     private String author;
     private String serialNumber;
